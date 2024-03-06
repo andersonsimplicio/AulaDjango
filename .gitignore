@@ -26,7 +26,7 @@ media
 .idea/**/gradle.xml
 .idea/**/libraries
 *.iws /out/
-
+db.sqlite3
 # Python #
 *.py[cod]
 *$py.class
