@@ -1,0 +1,54 @@
+<div class="product product-list-item">
+    <div class="product-cover">
+        <a href="#">
+           
+        </a>
+        <div class="product-title-container">
+            <h2 class="product-title">
+                <a href="">
+                {{produto.title}}
+                </a>    
+            </h2>
+        </div>
+        <div class="product-author">
+            
+                <span class="product-author-item">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                
+                </span>
+            
+                <span class="product-author-item">
+                    <i class="fas fa-calendar-alt"></i>
+                </span>
+                {% if produto.category is not None %}
+                <span class="product-author-item">
+                    
+                    <a href="">
+                        <i class="fas fa-layer-group"></i>
+                        <span></span>
+                    </a>
+                  
+                </span>
+                {% endif %}
+
+                <div class="product-content">
+                    <p></p>
+                </div>               
+        </div>
+        <div class="product-meta-container">
+            <div class="product-meta product-preparation">
+                <h3 class="product-meta-title"><i class="fas fa-stopwatch"></i> Preparo</h3>
+                <div class="product-meta-text">
+                    
+                </div>
+            </div>
+            <div class="product-meta product-servings">
+                <h3 class="product-meta-title"><i class="fas fa-pizza-slice"></i> Porções</h3>
+                <div class="product-meta-text">
+                    
+                </div>
+            </div>
+        </div>   
+        
+    </div>
+</div><!--Produto 1-->
