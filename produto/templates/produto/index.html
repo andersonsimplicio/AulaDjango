@@ -4,6 +4,8 @@
 
 {% block content %} 
           <div class="main-content main-content-list container">
+             {% for produto in produtos %}  
                {% include 'partials/produto.html' %}
+             {% endfor %}
           </div>     
 {% endblock content %} 
