@@ -7,5 +7,5 @@ class Home(View):
 
     def get(self, request, *args, **kwargs):
         produtos = Produto.objects.filter(is_published=True)
-
-        return render(request,self.template_name,{'produtos':produtos})
+        
+        return render(request,self.template_name,context={'produtos':produtos})

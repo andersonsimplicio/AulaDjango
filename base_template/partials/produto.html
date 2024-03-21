@@ -1,12 +1,12 @@
 <div class="product product-list-item">
     <div class="product-cover">
         <a href="#">
-           
+            <img src="{{produto.imagem.url}}" alt="">
         </a>
         <div class="product-title-container">
             <h2 class="product-title">
                 <a href="">
-                {{produto.title}}
+                {{produto.nome}}
                 </a>    
             </h2>
         </div>
@@ -37,13 +37,13 @@
         </div>
         <div class="product-meta-container">
             <div class="product-meta product-preparation">
-                <h3 class="product-meta-title"><i class="fas fa-stopwatch"></i> Preparo</h3>
+                <h3 class="product-meta-title"><i class="fa-solid fa-tag"></i> Preço R$ {{produto.preco}}</h3>
                 <div class="product-meta-text">
                     
                 </div>
             </div>
             <div class="product-meta product-servings">
-                <h3 class="product-meta-title"><i class="fas fa-pizza-slice"></i> Porções</h3>
+                <h3 class="product-meta-title"><i class="fa-solid fa-bag-shopping"></i> Quant. {{produto.quantidade}}</h3>
                 <div class="product-meta-text">
                     
                 </div>
